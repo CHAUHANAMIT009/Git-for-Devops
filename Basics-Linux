@@ -211,11 +211,11 @@
 - **ln**: Create symbolic or hard links
   ```bash
   ln -s target link_name
-  ```
+ 
 
 - **man**: Display the manual page for a command
   ```bash
   man command_name
-  ```
+ 
 
 
