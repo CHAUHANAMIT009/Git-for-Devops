@@ -1,0 +1,221 @@
+# this repository is for understanding Basics linux commands for Devops
+
+
+# Linux basics commands
+
+# Linux Commands Cheat Sheet
+
+## File and Directory Commands
+
+- **ls**: List directory contents
+  ```bash
+  ls [options] [directory]
+  ```
+
+- **pwd**: Print current working directory
+  ```bash
+  pwd
+  ```
+
+- **cd**: Change directory
+  ```bash
+  cd [directory]
+  ```
+
+- **mkdir**: Create a new directory
+  ```bash
+  mkdir [options] directory_name
+  ```
+
+- **rmdir**: Remove an empty directory
+  ```bash
+  rmdir directory_name
+  ```
+
+- **rm**: Remove files or directories
+  ```bash
+  rm [options] file_or_directory
+  ```
+
+- **cp**: Copy files and directories
+  ```bash
+  cp [options] source destination
+  ```
+
+- **mv**: Move or rename files
+  ```bash
+  mv [options] source destination
+  ```
+
+- **touch**: Create an empty file or update the timestamp
+  ```bash
+  touch file_name
+  ```
+
+## File Viewing and Editing
+
+- **cat**: Display the contents of a file
+  ```bash
+  cat file_name
+  ```
+
+- **less**: View file content one page at a time
+  ```bash
+  less file_name
+  ```
+
+- **more**: Display file content (scrollable output)
+  ```bash
+  more file_name
+  ```
+
+- **echo**: Display a message or output text to a file
+  ```bash
+  echo "message" > file_name
+  ```
+
+## Process Management
+
+- **ps**: Display currently running processes
+  ```bash
+  ps [options]
+  ```
+
+- **top**: Display real-time system processes
+  ```bash
+  top
+  ```
+
+- **vmstat**: Report virtual memory statistics
+  ```bash
+  vmstat [options]
+  ```
+
+- **kill**: Terminate processes
+  ```bash
+  kill [PID]
+  ```
+
+## Networking Commands
+
+- **ping**: Test network connectivity
+  ```bash
+  ping hostname_or_IP
+  ```
+
+- **dig**: Query DNS servers
+  ```bash
+  dig domain_name
+  ```
+
+- **ss**: Display active connections
+  ```bash
+  ss [options]
+  ```
+
+- **telnet**: Open a telnet session
+  ```bash
+  telnet hostname
+  ```
+
+## User Management
+
+- **who**: Display logged-in users
+  ```bash
+  who
+  ```
+
+- **whoami**: Display the current user
+  ```bash
+  whoami
+  ```
+
+- **id**: Display user ID (UID) and group ID (GID)
+  ```bash
+  id [username]
+  ```
+
+- **su**: Switch user
+  ```bash
+  su [username]
+  ```
+
+- **sudo**: Execute a command as another user (usually root)
+  ```bash
+  sudo command
+  ```
+
+- **useradd**: Add a new user
+  ```bash
+  sudo useradd username
+  ```
+
+- **passwd**: Change user password
+  ```bash
+  sudo passwd username
+  ```
+
+## Disk Usage and File Systems
+
+- **df**: Display disk space usage
+  ```bash
+  df -h
+  ```
+
+- **du**: Estimate file space usage
+  ```bash
+  du [options] [directory]
+  ```
+
+## System Information
+
+- **uname**: Display system information
+  ```bash
+  uname -a
+  ```
+
+- **uptime**: Show how long the system has been running
+  ```bash
+  uptime
+  ```
+
+- **hostname**: Display the system's hostname
+  ```bash
+  hostname
+  ```
+
+## Package Management (Debian/Ubuntu)
+
+- **apt**: Manage packages
+  ```bash
+  sudo apt [options] package_name
+  ```
+
+- **apt-get**: Install packages
+  ```bash
+  sudo apt-get install package_name
+  ```
+
+## Miscellaneous Commands
+
+- **history**: Display command history
+  ```bash
+  history
+  ```
+
+- **clear**: Clear the terminal screen
+  ```bash
+  clear
+  ```
+
+- **ln**: Create symbolic or hard links
+  ```bash
+  ln -s target link_name
+  ```
+
+- **man**: Display the manual page for a command
+  ```bash
+  man command_name
+  ```
+
+
