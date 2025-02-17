@@ -5,37 +5,37 @@
 
 # Linux Commands Cheat Sheet
 
-## File and Directory Commands
+# File and Directory Commands
 
-- **ls**: List directory contents
-  ```bash
+- ** ls **: List directory contents
+  bash
   ls [options] [directory]
-  ```
+  
 
 - **pwd**: Print current working directory
-  ```bash
+  bash
   pwd
-  ```
+ 
 
 - **cd**: Change directory
-  ```bash
+  bash
   cd [directory]
-  ```
+ 
 
 - **mkdir**: Create a new directory
   ```bash
   mkdir [options] directory_name
-  ```
+ 
 
 - **rmdir**: Remove an empty directory
   ```bash
   rmdir directory_name
-  ```
+ 
 
 - **rm**: Remove files or directories
   ```bash
   rm [options] file_or_directory
-  ```
+ 
 
 - **cp**: Copy files and directories
   ```bash
